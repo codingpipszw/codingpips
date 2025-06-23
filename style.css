@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #111111;
+  text-align: center;
+}
+
+body.dark {
+  background: #111111;
+  color: #ffffff;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.live-text {
+  animation: glow 1.5s ease-in-out infinite alternate;
+  color: #00b386;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #00b386;
+  }
+  to {
+    text-shadow: 0 0 20px #00b386, 0 0 30px #00b386;
+  }
+}
+
+.btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 25px;
+  background-color: #00b386;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.socials a {
+  display: inline-block;
+  margin: 10px;
+  color: #00b386;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 50px;
+}
